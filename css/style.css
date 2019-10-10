@@ -80,12 +80,12 @@ body{
 .submenu{
 	position: absolute;
 	padding: 0px;
-	width: 230px;
+	width: 200px;
 	height: 160px;
 	background-color: #FFFF;
 	margin-top: 10px;
 	border-radius: 7px;
-	display: none;
+	/*display: none;*/
 }
 
 .submenu > li{
@@ -95,18 +95,24 @@ body{
 
 .submenu > li > a{
 	text-decoration: none;
-	font-family: Proppins-Medium;
+	font-family: "Proppins-Medium";
 	color: rgba(120, 132, 135, .8);
 	font-size: 16px;
 	display: block;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	padding-left: 24px;
-	width: 206px;
+	padding-left: 16px;
+	width: 176px;
 }
 
 .submenu > li > a:hover{
 	color: rgba(120, 132, 135, .4);
+}
+
+.icon-arrow-right{
+	position: absolute;
+	right: 12px;
+	margin-top: 2px;
 }
 
 #Nav{
