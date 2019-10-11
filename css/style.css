@@ -15,7 +15,7 @@ body{
 #Nav > ul > li {
 	list-style: none;
 	position: relative;
-	left: 250px;
+	left: 230px;
 	margin-right: 75px;
 }
 
@@ -29,6 +29,7 @@ body{
 	padding-right: 6px;
 	font-size: 18px;
 	color: #FFFFFF;
+	transition: color .3s;
 }
 
 .menu > li > a::after{
@@ -48,8 +49,9 @@ body{
 
 }
 
+
 .khoa:hover .submenu{
-	display: block;
+	visibility: visible;
 }
 
 .menu > li > a:hover::after{
@@ -77,6 +79,10 @@ body{
 	position: relative;
 }
 
+#submenu-khoa:hover .submenu-child{
+	visibility: visible;
+}
+
 .submenu{
 	position: absolute;
 	padding: 0px;
@@ -85,7 +91,9 @@ body{
 	background-color: #FFFF;
 	margin-top: 10px;
 	border-radius: 7px;
-	/*display: none;*/
+	visibility: hidden;
+	box-shadow: 0px 4px 36px rgba(0, 0, 0, .16);
+	transition: ease .5s;
 }
 
 .submenu > li{
@@ -103,6 +111,7 @@ body{
 	padding-bottom: 5px;
 	padding-left: 16px;
 	width: 176px;
+	transition: color 0.5s;
 }
 
 .submenu > li > a:hover{
@@ -113,6 +122,57 @@ body{
 	position: absolute;
 	right: 12px;
 	margin-top: 2px;
+}
+
+.submenu-child{
+	position: absolute;
+	left: 210px;
+	width: 190px;
+	height: 200px;
+	background-color: #FFFF;
+	padding-left: 0px;
+	border-radius: 7px;
+	visibility: hidden;
+	box-shadow: 0px 4px 36px rgba(0, 0, 0, .16);
+	transition: ease .5s;
+}
+
+.submenu-child > li{
+	list-style: none;
+	margin-top: .6px;
+	width: 160px;
+	margin-left: 13px;
+}
+
+.submenu-child > li > a{
+	text-decoration: none;
+	color: #788487;
+	font-family: "Poppins-regular";
+	font-size: 16px;
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: center;
+	border-bottom: solid .5px rgba(112,112,112,.25);
+	transition : color .5s;
+}
+
+.submenu-child > li > a:hover{
+	color: rgba(112,112,112,.4);
+}
+
+
+#submenu-child-brand{
+	text-align: center;
+	border-bottom: solid .5px rgba(112,112,112,.9);
+	height: 25px;
+	width: 190px;
+	font-family: "Poppins-Medium";
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 8px;
+	color: #788487;
+	margin-left: 0px;
 }
 
 #Nav{
