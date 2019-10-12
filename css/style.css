@@ -79,6 +79,10 @@ body{
 	position: relative;
 }
 
+#submenu-khoa{
+	position: relative;
+}
+
 #submenu-khoa:hover .submenu-child{
 	visibility: visible;
 }
@@ -93,7 +97,7 @@ body{
 	border-radius: 7px;
 	visibility: hidden;
 	box-shadow: 0px 4px 36px rgba(0, 0, 0, .16);
-	transition: ease .5s;
+	transition: linear .4s;
 }
 
 .submenu > li{
@@ -127,14 +131,15 @@ body{
 .submenu-child{
 	position: absolute;
 	left: 210px;
+	top: -7px;
 	width: 190px;
-	height: 200px;
+	height: 220px;
 	background-color: #FFFF;
 	padding-left: 0px;
 	border-radius: 7px;
 	visibility: hidden;
 	box-shadow: 0px 4px 36px rgba(0, 0, 0, .16);
-	transition: ease .5s;
+	transition: linear .05s;
 }
 
 .submenu-child > li{
@@ -150,8 +155,8 @@ body{
 	font-family: "Poppins-regular";
 	font-size: 16px;
 	display: block;
-	padding-top: 7px;
-	padding-bottom: 7px;
+	padding-top: 9px;
+	padding-bottom: 9px;
 	text-align: center;
 	border-bottom: solid .5px rgba(112,112,112,.25);
 	transition : color .5s;
@@ -165,7 +170,7 @@ body{
 #submenu-child-brand{
 	text-align: center;
 	border-bottom: solid .5px rgba(112,112,112,.9);
-	height: 25px;
+	height: 28px;
 	width: 190px;
 	font-family: "Poppins-Medium";
 	font-weight: bold;
