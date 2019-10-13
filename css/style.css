@@ -188,7 +188,7 @@ body{
 }
 
 #Header{
-	height: 856px;
+	height: 740px;
 	background: rgb(80,92,253);
 	background: linear-gradient(100deg, rgba(80,92,253,1) 0%, rgba(0,219,222,1) 100%);
 }
@@ -214,4 +214,32 @@ body{
 
 #menu-icon{
 	margin-left: 2px;
+}
+
+#content-nav{
+	font-family: "Poppins";
+	color: #FFFF;
+	text-align: center;
+}
+
+#content-nav > h1{
+	font-size: 100px;
+	margin: 0px;
+	font-weight: bold;
+	margin-top: 170px;
+}
+
+#content-nav > p{
+	font-size: 22px;
+	font-family: "Poppins-Regular";
+	display: block;
+	width: 730px;
+	margin-top: 30px;
+	margin-left: 300px
+}
+
+#mac-pic{
+	position: relative;
+	top: 200px;
+	text-align: center;
 }
