@@ -40,17 +40,21 @@
 	justify-content: center;
 }
 
-#content-img{
+#row-2{
 	display: flex;
-	width: 1280px;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#content-img{
+	width: 1290px;
 	margin: auto;
 	justify-content: center;
 	margin-top: 30px;
-	word-wrap: break-word;
 }
 
 .img-box{
-	width: 300px;
+	width: 310px;
 	height: 220px;
 	margin: 0px 10px 0px 10px;
 }
@@ -58,7 +62,7 @@
 .img-effect{
 	width: 285px;
 	height: 173px;
-	border-radius: 15px;
+	border-radius: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 	background: rgb(119,119,119);
@@ -73,7 +77,7 @@
 	height: 173px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	border-radius: 15px;
+	border-radius: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 	box-shadow: 0px 30px 80px;
