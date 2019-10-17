@@ -228,7 +228,7 @@ body{
 }
 
 #content-nav > h1{
-	font-size: 100px;
+	font-size: 80px;
 	margin: 0px;
 	font-weight: bold;
 	margin-top: 160px;
@@ -245,6 +245,6 @@ body{
 
 #mac-pic{
 	position: relative;
-	top: 200px;
+	top: 222px;
 	text-align: center;
 }
