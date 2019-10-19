@@ -97,7 +97,7 @@ body{
 	position: absolute;
 	padding: 0px;
 	width: 200px;
-	height: 160px;
+	height: 180px;
 	background-color: #FFFF;
 	margin-top: 10px;
 	border-radius: 7px;
@@ -109,7 +109,7 @@ body{
 
 .submenu > li{
 	list-style: none;
-	margin-top: 9px;
+	margin-top: 10px;
 }
 
 .submenu > li > a{
@@ -118,8 +118,8 @@ body{
 	color: rgba(120, 132, 135, .8);
 	font-size: 16px;
 	display: block;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	padding-left: 16px;
 	width: 176px;
 	transition: color 0.5s;
