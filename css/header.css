@@ -45,7 +45,7 @@ body{
     height: 1px;
     width: 25px;
     margin-left: 25%;
-    top: 23px;
+    top: 22.5px;
     content: "";
     transition: all .3s ease-out;
 }
@@ -193,14 +193,16 @@ body{
 	border-bottom-color: rgba(245,245,245,0.4);
 	border-bottom-width: 1px;
 	display: flex;
-	/*position: fixed;
-	top: 50px;*/
+	position: fixed;
+	width: 100%;
 }
 
 #Header{
 	height: 760px;
 	background: rgb(80,92,253);
 	background: linear-gradient(100deg, rgba(80,92,253,1) 0%, rgba(0,219,222,1) 100%);
+	display: flex;
+	flex-direction: column;
 }
 
 #Extra-Menu{
@@ -230,13 +232,13 @@ body{
 	font-family: "Poppins";
 	color: #FFFF;
 	text-align: center;
+	margin-top: 250px;
 }
 
 #content-nav > h1{
-	font-size: 80px;
+	font-size: 88px;
 	margin: 0px;
 	font-weight: bold;
-	margin-top: 160px;
 }
 
 #content-nav > p{
@@ -249,7 +251,6 @@ body{
 }
 
 #mac-pic{
-	position: relative;
-	top: 222px;
 	text-align: center;
+	margin-top: -88px;
 }
