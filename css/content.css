@@ -1,7 +1,8 @@
 #content{
-	width: 1300px;
-	height: 600px;
-	margin: auto;
+	width: 100%;
+	height: 550px;
+	/*margin: auto;*/
+	margin-top: 22px;
 }
 
 #content-cap{
@@ -11,25 +12,25 @@
 
 #content-cap > p{
 	font-family: "Poppins";
-	font-size: 23px;
+	font-size: 21px;
 	color: rgba(0,0,0,.3);
 	font-style: italic;
-	margin: -18px 0px 0px;
+	margin: -13px 0px 0px;
 }
 
 #hr1{
-	width: 550px;
+	width: 530px;
 	height: 0px;
-	margin: 0px 20px 0px 0px;
+	margin: 0px 23px 0px 0px;
 	color: rgba(112,112,112,.08);
 	border-style: solid;
 	border-width: 0.5px;
 }
 
 #hr2{
-	width: 550px;
+	width: 530px;
 	height: 0px;
-	margin: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 23px;
 	color: rgba(112,112,112,.08);
 	border-style: solid;
 	border-width: 0.5px;
@@ -109,6 +110,90 @@
 	margin: auto;
 	margin-top: -100px;
 }
+
+#content-table-1{
+	background-color: #ABC8C7;
+	width: 1200px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+#content-table-1  table,th,td {
+	border-style: solid;
+	text-align: center;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+
+#content-table-1 table > tbody > tr > th{
+	padding: 7px 20px 7px 20px;
+	font-size: 16px;
+
+}
+
+#content-table-1 table > tbody > tr > td{
+	padding: 4px 16px 4px 16px;
+}
+
+#content-table-1 > table {
+	margin-top: 10px;
+	margin: auto;
+	width: 1100px;
+}
+
+
+#select-years > select{
+	width: 150px;
+	height: 30px;
+	float: right;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 16px;
+	margin-left: 10px;
+}
+
+#area-select{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+#area-select > p{
+	font-family: "arial",sans-serif;
+	color: #A342F1;
+	font-size: 20px;
+}
+
+#content-second{
+	display: flex;
+	justify-content: center;
+	margin-top: -43px;
+	margin-bottom: 10px;
+}
+
+#content-table-3{
+	width: 595px;
+	height: 700px;
+	background-color: #9DA3A4;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+#content-table-2{
+	width: 595px;
+	height: 700px;
+	background-color: #D5C5C8;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+
+
 
 
 
