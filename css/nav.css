@@ -6,10 +6,10 @@
 	position: relative;
 }
 
-#submenu-khoa:hover .submenu-child{
+/*#submenu-khoa:hover .submenu-child{
 	visibility: visible;
 }
-
+*/
 .submenu{
 	position: absolute;
 	padding: 0px;
